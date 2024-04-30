@@ -1,0 +1,102 @@
+
+.loginContainer {
+  /* width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 0 auto; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.loginContainer h1{
+  font-size: 26px;
+  color: #81b7f1;
+}
+
+
+.loginContainer h2 {
+  text-align: center;
+  font-size: 24px;
+  /* margin-bottom: 20px; */
+}
+
+.loginContainer form {
+  width: 80%;
+  flex-wrap: wrap;
+
+}
+
+.loginContainer form div {
+  padding-bottom: 30px;
+  width: 100%;
+ 
+}
+
+.loginContainer form label {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.loginContainer form input {
+  border-radius: 5px;
+        padding: 10px;
+        outline: none;
+        border: none;
+        width: 90%;
+        max-width: 500px;
+  border: 1px solid #ccc;
+  /* width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc; */
+}
+
+.loginContainer form button {
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.loginContainer form button:hover {
+  background-color: #0056b3;
+}
+
+.loginContainer p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.loginContainer p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.loginContainer p a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 724px) {
+  .loginContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    height: 90vh;
+  }
+}
